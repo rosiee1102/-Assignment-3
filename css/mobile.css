@@ -1,0 +1,134 @@
+@media (max-width: 768px) {
+  /* Navbar */
+  .img-avt {
+    display: none;
+  }
+  .navbar {
+    display: block;
+    height: auto;
+    border-bottom: none;
+  }
+  .navbar a {
+    display: block;
+    border: none;
+    text-align: left;
+    padding: 5px;
+  }
+
+  /* Thông tin cá nhân */
+  #personal-info {
+    padding-right: 20px;
+  }
+  /* Thông tin nghề nghiệp, Ngôn ngữ, kĩ năng, sở thích */
+  .experince {
+    position: relative;
+  }
+  .ic-toolbox {
+    margin-left: 100px;
+  }
+
+  /* Chứng chỉ - Giải thưởng */
+  .certificate-item {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .certificate-item:nth-child(1) > div:nth-child(2) {
+    border-right: 0;
+  }
+  /* Dự án */
+
+  .item3 {
+    font-size: 14px;
+    padding: 20px;
+  }
+  .item4 {
+    font-size: 14px;
+    padding: 20px;
+  }
+  .item5 {
+    font-size: 14px;
+    padding: 20px;
+  }
+  /* Footer */
+  #footer {
+    margin-right: 15px;
+  }
+  /* digital cv */
+  .goal-1,
+  .goal-2,
+  .goal-3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .team-item1,
+  .team-item2,
+  .team-item3,
+  .team-item4 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .scopes-all {
+    display: flex;
+    flex-direction: column;
+  }
+  .primary-item1,
+  .primary-item2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .timeline-item1,
+  .timeline-item2,
+  .timeline-item3,
+  .timeline-item4,
+  .timeline-item5,
+  .timeline-item6,
+  .timeline-item7 {
+    display: flex;
+    flex-direction: column;
+  }
+  .goal-1,
+  .goal-2,
+  .goal-3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .goals i {
+    padding-left: 170px;
+  }
+  .team-item1,
+  .team-item2,
+  .team-item3,
+  .team-item4 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .team i {
+    padding-left: 120px;
+    padding-bottom: 10px;
+  }
+  .scopes-all {
+    display: flex;
+    flex-direction: column;
+  }
+  .primary-item1,
+  .primary-item2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .primary i {
+    padding-left: 170px;
+  }
+  .timeline-item1,
+  .timeline-item2,
+  .timeline-item3,
+  .timeline-item4,
+  .timeline-item5,
+  .timeline-item6,
+  .timeline-item7 {
+    display: flex;
+    flex-direction: column;
+  }
+}
